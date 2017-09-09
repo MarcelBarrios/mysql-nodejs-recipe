@@ -1,0 +1,33 @@
+{
+  "name": "mysql-nodejs-recipe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarcelBarrios/mysql-nodejs-recipe.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarcelBarrios/mysql-nodejs-recipe/issues"
+  },
+  "homepage": "https://github.com/MarcelBarrios/mysql-nodejs-recipe#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.4",
+    "course": "0.0.1",
+    "express": "^4.15.4",
+    "install": "^0.10.1",
+    "mysql": "^2.14.1",
+    "save": "^2.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
